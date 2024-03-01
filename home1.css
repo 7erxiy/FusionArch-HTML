@@ -275,29 +275,10 @@
   justify-content: space-between;
 }
 .home1-container01 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-.home1-image {
-  width: 24px;
-  height: 24px;
-  z-index: 100;
-  margin-right: -32px;
-}
-.home1-textinput {
-  width: 100%;
-  max-width: var(--dl-size-size-xxlarge);
-  transition: 0.3s;
-  border-color: var(--dl-color-gray-700);
-  border-width: 1px;
-  padding-left: var(--dl-space-space-threeunits);
-  border-top-width: 0px;
-  border-left-width: 0px;
-  border-right-width: 0px;
-}
-.home1-textinput:hover {
-  border-color: var(--dl-color-pallet-yellow);
 }
 .home1-middle {
   display: flex;
@@ -322,35 +303,6 @@
   grid-gap: 45px;
   position: relative;
   align-items: flex-start;
-}
-.home1-icons {
-  display: flex;
-}
-.home1-image1 {
-  width: 24px;
-  height: 24px;
-  margin: 0 24px 0 0;
-  position: relative;
-  box-sizing: border-box;
-  object-fit: cover;
-  border-color: transparent;
-}
-.home1-image2 {
-  width: 24px;
-  height: 24px;
-  margin: 0 24px 0 0;
-  position: relative;
-  box-sizing: border-box;
-  object-fit: cover;
-  border-color: transparent;
-}
-.home1-image3 {
-  width: 24px;
-  height: 24px;
-  position: relative;
-  box-sizing: border-box;
-  object-fit: cover;
-  border-color: transparent;
 }
 .home1-burger-menu {
   display: none;
@@ -526,7 +478,7 @@
   border-color: transparent;
   margin-bottom: var(--dl-space-space-threeunits);
 }
-.home1-image4 {
+.home1-image {
   width: 2px;
   height: 52px;
   margin: 0 14px 0 0;
@@ -576,7 +528,7 @@
   align-items: center;
   flex-direction: row;
 }
-.home1-image5 {
+.home1-image1 {
   width: 100%;
   position: relative;
   max-width: 579px;
@@ -817,7 +769,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.home1-image6 {
+.home1-image2 {
   width: 60%;
   position: relative;
   box-sizing: border-box;
@@ -985,6 +937,15 @@
   color: var(--dl-color-gray-black50);
   margin-bottom: var(--dl-space-space-unit);
 }
+@media(max-width: 1200px) {
+  .home1-navbar1 {
+    justify-content: center;
+  }
+  .home1-logo-center {
+    font-family: Monoton;
+    text-decoration: none;
+  }
+}
 @media(max-width: 991px) {
   .home1-container01 {
     display: none;
@@ -993,9 +954,6 @@
     display: none;
   }
   .home1-right {
-    display: none;
-  }
-  .home1-icons {
     display: none;
   }
   .home1-burger-menu {
@@ -1079,7 +1037,7 @@
   .home1-text30 {
     width: auto;
   }
-  .home1-image6 {
+  .home1-image2 {
     width: 100%;
   }
   .home1-footer1 {
