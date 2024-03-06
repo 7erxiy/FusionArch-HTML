@@ -262,17 +262,18 @@
   background-color: var(--dl-color-pallet-green);
 }
 .home1-header {
+  flex: 1;
+  width: 1863px;
   padding-top: var(--dl-space-space-oneandhalfunits);
   flex-direction: row;
   padding-bottom: var(--dl-space-space-oneandhalfunits);
-  justify-content: space-between;
 }
 .home1-navbar1 {
   width: 100%;
   display: flex;
   position: relative;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 .home1-container01 {
   border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -281,6 +282,7 @@
   justify-content: space-between;
 }
 .home1-middle {
+  gap: var(--dl-space-space-sixunits);
   display: flex;
   position: relative;
   box-sizing: border-box;
@@ -342,7 +344,7 @@
   color: var(--dl-color-gray-black);
   height: auto;
   font-size: 24px;
-  font-family: Jost;
+  font-family: "Jost";
   font-weight: 500;
   line-height: 20px;
   margin-left: var(--dl-space-space-fourunits);
@@ -994,6 +996,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .home1-mobile-menu {
+    top: 0px;
+    left: -618px;
   }
   .home1-main {
     padding-bottom: var(--dl-space-space-threeunits);
