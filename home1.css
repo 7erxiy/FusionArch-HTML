@@ -949,6 +949,9 @@
   }
 }
 @media(max-width: 991px) {
+  .home1-header {
+    width: 100%;
+  }
   .home1-container01 {
     display: none;
   }
@@ -998,8 +1001,8 @@
     justify-content: center;
   }
   .home1-mobile-menu {
-    top: 0px;
-    left: -618px;
+    top: 3px;
+    right: -792px;
   }
   .home1-main {
     padding-bottom: var(--dl-space-space-threeunits);
@@ -1063,9 +1066,12 @@
     padding-top: 55px;
   }
   .home1-header {
+    width: 100%;
     padding: var(--dl-space-space-unit);
   }
   .home1-mobile-menu {
+    top: 5px;
+    right: -452px;
     padding: 16px;
   }
   .home1-hero1 {
